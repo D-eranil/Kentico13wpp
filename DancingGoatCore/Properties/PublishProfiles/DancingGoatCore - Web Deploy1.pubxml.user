@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1HisvYn61kics79OEvJ49AAAAAACAAAAAAAQZgAAAAEAACAAAAA9Qb5oWkrooCEkvbls5qNeB3L4VCPzlLA/uoL4D9FfMAAAAAAOgAAAAAIAACAAAAABBljDEZLLQxQy9CZwsYIKMhIBiDST1KYenAb2Wm4N2IAAAACySXBLLVbyOguMl5Zq9hkcHbcQ5amrGFG0ZdbB8dskfvow30TY5PiZD9y5Iz6OWK6fEnb9LFUfnLVWubX4omnGn0whXpK/P2qob6FXD/zfD0qQhEPAjchVQAcEoYT+OhCp0yXC578o+mFe7svNrOreMmDqR8jcxCsO3Yq3+mwM9UAAAAAc3001kLkf7HCO8o17thRrnhUVLTq7RXlfZ7Ti48u8qZsvUGc8ykEF3+AQP/dnhibx7BA5bDS/5vlvsZ/orpNX</EncryptedPassword>
+    <History>True|2022-03-17T06:29:20.5908664Z;True|2022-03-17T11:36:10.3758791+05:30;True|2022-03-17T10:53:45.3529624+05:30;True|2022-03-17T10:46:51.6919760+05:30;True|2022-03-17T10:21:25.1100738+05:30;True|2022-03-17T10:18:10.5925834+05:30;True|2022-03-16T19:14:44.0708650+05:30;True|2022-03-16T19:12:30.1490154+05:30;False|2022-03-16T19:11:12.3785437+05:30;True|2022-03-16T18:52:42.6086015+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CMSConnectionString">
+      <Value>Server=tcp:testsqldev.database.windows.net,1433%3bInitial Catalog=Kentico13wpp%3bPersist Security Info=False%3bUser ID=dev%3bPassword=Abcd%401121%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ConnectionStrings">
+      <Value>Server=tcp:testsqldev.database.windows.net,1433%3bInitial Catalog=Kentico13wpp%3bPersist Security Info=False%3bUser ID=dev%3bPassword=Abcd%401121%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

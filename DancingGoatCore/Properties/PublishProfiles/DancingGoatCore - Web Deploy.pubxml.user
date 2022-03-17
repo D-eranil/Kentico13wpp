@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1HisvYn61kics79OEvJ49AAAAAACAAAAAAAQZgAAAAEAACAAAADw/7QErK+YO04ugwj6uXeshdyBSTajsc+Sy0ECOe/DkAAAAAAOgAAAAAIAACAAAACj+3vQTIzQ6fcVigbs+/Z3vpmaBu8u1rletdMzDd8y6oAAAADgVulYG04PPcWFnf5YNh8+zSPMBgXc3LL/5svYzikHUNqUDTsYhK0goHWR44Wj4u631hhJzhISAyAVDWeAsajWaI8VwL35HL/go2iZthvsZJnQx/rvdZ9PQGjYg/jDerLof8oMQuZNiWV3ZaUTGt2f3X40eQ45vBV3TBjpPPhifUAAAACp2n2VCLCHjFzAMrOr0MS9GWh2Yt4hVTc0QochlzIYfzkxt4Djp6KXKNmr8IUZvHjP80FYdsl/89Qo0CBCpJt2</EncryptedPassword>
+    <History>True|2022-03-16T12:46:29.8264766Z;True|2022-03-16T17:44:51.0560755+05:30;True|2022-03-16T17:32:55.6134716+05:30;True|2022-03-16T15:39:37.5744058+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CMSConnectionString">
+      <Value>Data Source=DST-ANIL\MSSQLSERVER01%3bInitial Catalog=Kentico13wpp%3bPersist Security Info=True%3bUser ID=sa%3bPassword=1234</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="ConnectionStrings">
+      <Value>Data Source=DST-ANIL\MSSQLSERVER01%3bInitial Catalog=Kentico13wpp%3bPersist Security Info=True%3bUser ID=sa%3bPassword=1234</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

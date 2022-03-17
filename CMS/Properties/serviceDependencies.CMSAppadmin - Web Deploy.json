@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/testsqldev/databases/Kentico13wpp",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings"
+    },
+    "storage1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/teststroageacc",
+      "type": "storage.azure",
+      "connectionId": "CMSConnectionString"
+    }
+  }
+}
